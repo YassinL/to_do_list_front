@@ -1,0 +1,16 @@
+@import "../../_settings/variables";
+.footer {
+  border-top: solid 1px $light-grey;
+  background-color: $egg-shell;
+  & ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    & li {
+      width: 50%;
+      font-size: 1.5rem;
+      padding: 5%;
+      text-decoration: underline;
+    }
+  }
+}

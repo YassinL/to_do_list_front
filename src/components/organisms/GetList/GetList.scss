@@ -1,0 +1,22 @@
+@import "../../_settings/variables";
+.getList {
+  &_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &_create {
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+    border-radius: 7px;
+    background-color: $light-grey;
+    & h3 {
+      font-weight: bold;
+      padding: 5px;
+    }
+  }
+}

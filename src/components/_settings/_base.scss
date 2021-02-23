@@ -1,0 +1,47 @@
+@import "./variables";
+@import "./mixins";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "homeFont", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  background-color: $off-white;
+}
+
+h1 {
+  font-family: "homeFontBold";
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.span {
+  padding: 15px;
+  font-size: 1.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}

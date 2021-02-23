@@ -1,0 +1,14 @@
+.card {
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 180px;
+  max-width: 250px;
+  height: 80px;
+  border-radius: 7px;
+  & h3 {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+  }
+}

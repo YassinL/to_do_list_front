@@ -1,0 +1,10 @@
+@import "../../_settings/variables";
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 2% 5%;
+  background-color: $purple;
+  color: white;
+  border-radius: 7px;
+}

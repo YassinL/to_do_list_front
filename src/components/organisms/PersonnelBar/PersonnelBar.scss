@@ -1,0 +1,32 @@
+@import "../../_settings/variables";
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  background-color: $light-grey;
+  height: 40px;
+  &_image {
+    margin: 0 100px;
+    height: 100%;
+    & img {
+      height: 100%;
+      width: auto;
+    }
+  }
+  &_left {
+    display: flex;
+    & h4 {
+      display: none;
+    }
+    & svg {
+      color: $purple;
+    }
+  }
+  &_right {
+    display: flex;
+    & svg {
+      color: $purple;
+    }
+  }
+}

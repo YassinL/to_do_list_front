@@ -1,0 +1,24 @@
+.home {
+  &_presentation {
+    padding: 10% 5%;
+    & p {
+      line-height: 1.4;
+      font-size: 2.3rem;
+    }
+    &_button {
+      margin-top: 20px;
+    }
+  }
+  &_details {
+    padding: 5%;
+    &_paragraphe {
+      & p {
+        line-height: 1.4;
+        font-size: 2.3rem;
+      }
+    }
+    &_image {
+      padding-bottom: 5%;
+    }
+  }
+}
